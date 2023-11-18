@@ -1,0 +1,49 @@
+.container {
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    justify-content: space-evenly;
+}
+
+.dashboard {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width : 250px;
+    background-color: rgba(132, 128, 128, 0.808);
+}
+
+.cardHeading1 {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    margin-right: 5px;
+    position: relative;
+    display : inline-block;
+    width: 15px; 
+    height: 15px;  
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.selectList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
